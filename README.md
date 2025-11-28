@@ -1,4 +1,4 @@
-# 🚀 Windows-to-ELK Full Logging Pipeline
+<img width="975" height="376" alt="image" src="https://github.com/user-attachments/assets/b1aa0a66-eb0b-4fa4-baef-e20b87e294fb" /># 🚀 Windows-to-ELK Full Logging Pipeline
 **Winlogbeat → Logstash → Elasticsearch → Kibana**
 
 This repository contains a complete, fully documented, end-to-end logging pipeline that collects, processes, and visualizes Windows event logs using the ELK Stack.  
@@ -405,49 +405,87 @@ Check winlogbeat-\* index.
 
 ### ➤ Create Pipeline Config
 
+<img width="975" height="53" alt="image" src="https://github.com/user-attachments/assets/47f00364-d1c8-472b-872b-f8a3dc098288" />
+
+<img width="975" height="606" alt="image" src="https://github.com/user-attachments/assets/3b287450-bbe3-42ce-bb5d-a2474fb651b5" />
+
     cd /etc/logstash/conf.d
     sudo nano winlogbeat.conf
 
 ### ➤ Restart & Verify Logstash
+
+
+<img width="975" height="296" alt="image" src="https://github.com/user-attachments/assets/d1bd8c26-2984-49a4-8574-e421925c49fb" />
 
     sudo systemctl restart logstash
     sudo systemctl status logstash
 
 ### ➤ Fix Logstash Permissions
 
+<img width="975" height="75" alt="image" src="https://github.com/user-attachments/assets/e2d681c8-a674-46bd-9f74-c68430686f29" />
+
     sudo chown -R logstash:logstash /usr/share/logstash/data
     sudo chmod -R 750 /usr/share/logstash/data
 
 ### ➤ Validate Logstash Config
 
+<img width="975" height="574" alt="image" src="https://github.com/user-attachments/assets/39014523-f247-4447-b90e-2067350813da" />
+
+
     sudo -u logstash /usr/share/logstash/bin/logstash --path.settings /etc/logstash -t
 
 ### ➤ Monitor Logstash Logs
+
+<img width="975" height="442" alt="image" src="https://github.com/user-attachments/assets/c61d43ef-261b-40b3-bc99-2cc45e3f2de1" />
+
 
     sudo journalctl -u logstash -f
 
 ### ➤ Configure Winlogbeat to Logstash
 
+<img width="975" height="637" alt="image" src="https://github.com/user-attachments/assets/6c29855f-d694-4fc7-8840-c7d3e7f4bfc2" />
+
+<img width="980" height="503" alt="image" src="https://github.com/user-attachments/assets/495ee6ad-51a6-4db1-91b9-8882e579a9b9" />
+
+<img width="975" height="708" alt="image" src="https://github.com/user-attachments/assets/24020c85-2690-4d31-99dd-694c4ff49d3e" />
+
+
 Setup HTTPS forwarding.
 
 ### ➤ Configure Winlogbeat to Elasticsearch
+
+<img width="933" height="604" alt="image" src="https://github.com/user-attachments/assets/ab25387c-5e89-4ebb-a961-41967d97267a" />
 
 Secure connection and indexing.
 
 ### ➤ Firewall Rule for Winlogbeat
 
+<img width="975" height="424" alt="image" src="https://github.com/user-attachments/assets/81d63901-b8e5-4381-a7f5-91572dba6264" />
+
     New-NetFirewallRule -DisplayName "Allow Winlogbeat to Logstash" -Direction Inbound -Protocol TCP -LocalPort 5044 -Action Allow
 
 ### ➤ Validate Winlogbeat Before Start
+
+<img width="975" height="666" alt="image" src="https://github.com/user-attachments/assets/d3009d5a-2e7c-4caf-8500-cd59b626ab9f" />
+
+<img width="975" height="729" alt="image" src="https://github.com/user-attachments/assets/2b9637dd-a80e-492a-a4ae-b25bdb98ecdc" />
 
     Restart-Service winlogbeat
     .\winlogbeat.exe test config -c .\winlogbeat.yml -e
 
 ### ➤ Test Winlogbeat Output
 
+<img width="975" height="144" alt="image" src="https://github.com/user-attachments/assets/8973c574-8217-4d99-a027-cc7a128395f4" />
+
     .\winlogbeat.exe test output -c winlogbeat.yml
 
 ### ➤ Verify Service in Windows
+
+<img width="982" height="50" alt="image" src="https://github.com/user-attachments/assets/d2df6695-670f-4947-a231-690e838e3ae1" />
+
+
+<img width="982" height="50" alt="image" src="https://github.com/user-attachments/assets/98356a75-b2e9-405b-b960-3e6fc83edb06" />
+
 
     services.msc
 
@@ -459,9 +497,19 @@ Secure connection and indexing.
 
 ### ➤ Verify Winlogbeat Index in Elasticsearch
 
+
+<img width="975" height="895" alt="image" src="https://github.com/user-attachments/assets/e6fe43c0-3274-4e9f-950c-82d2b89b7c1e" />
+
+<img width="975" height="1035" alt="image" src="https://github.com/user-attachments/assets/b8d269b0-c965-47f9-8544-1d21f744ec46" />
+
+
     curl -X GET -u elastic:CalEunKfLKYKBm7-Me62 "https://localhost:9200/.ds-winlogbeat-9.2.1-2025.11.21-000001?pretty" -k
 
 ### ➤ Final Elasticsearch Status
+
+
+![Uploading image.png…]()
+
 
     curl -k -u elastic:FYQEm=bUNr-6yUeyfdiC https://192.168.6.130:9200
     curl -k -u elastic:FYQEm=bUNr-6yUeyfdiC "https://192.168.6.130:9200/winlogbeat*/_search?pretty&size=5"
