@@ -349,8 +349,7 @@ Loads dashboards/templates.
 
 ### ➤ Verify Index in Kibana
 
-
-![Uploading image.png…]()
+<img width="975" height="604" alt="image" src="https://github.com/user-attachments/assets/c8cae4b8-f4fd-415a-a591-dab5fadaad1b" />
 
 
 Check winlogbeat-\* index.
@@ -363,24 +362,44 @@ Check winlogbeat-\* index.
 
 ### ➤ Add Elastic APT Repo
 
+
+<img width="975" height="382" alt="image" src="https://github.com/user-attachments/assets/f183c15a-e93f-4ea0-938a-3041ea4d845e" />
+
+
     wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo gpg --dearmor -o /usr/share/keyrings/elastic-keyring.gpg
     sudo apt-get install apt-transport-https
     echo "deb [signed-by=/usr/share/keyrings/elastic-keyring.gpg] https://artifacts.elastic.co/packages/9.x/apt stable main" | sudo tee -a /etc/apt/sources.list.d/elastic-9.x.list
 
 ### ➤ Update APT
 
+
+<img width="975" height="604" alt="image" src="https://github.com/user-attachments/assets/b82045f3-0cd0-4220-9193-29b46a4b42f8" />
+
+
     sudo apt update
 
 ### ➤ Install Logstash
+
+
+<img width="975" height="329" alt="image" src="https://github.com/user-attachments/assets/369f0785-baee-43be-9fb8-f60e6f462836" />
+
 
     sudo apt install logstash -y
 
 ### ➤ Start & Verify Logstash
 
+
+<img width="975" height="271" alt="image" src="https://github.com/user-attachments/assets/70b6f29f-62e4-4b70-89f6-e922c34e9d6f" />
+
+
     sudo systemctl start logstash
     sudo systemctl status logstash
 
 ### ➤ Understand Logstash Config
+
+
+<img width="975" height="379" alt="image" src="https://github.com/user-attachments/assets/f536132e-693b-4ed5-9052-359e8d8ef777" />
+
 
     cat /etc/logstash/logstash-sample.conf
 
