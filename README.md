@@ -509,8 +509,14 @@ Secure connection and indexing.
 
 ### ➤ Final Elasticsearch Status
 
+<img width="975" height="617" alt="image" src="https://github.com/user-attachments/assets/4b72dd62-01ec-46fe-99d9-dca82ff6bac2" />
 
-![Uploading image.png…]()
+<img width="975" height="321" alt="image" src="https://github.com/user-attachments/assets/cfe86f5b-5bf9-404f-af58-565cabb10a1f" />
+
+<img width="975" height="321" alt="image" src="https://github.com/user-attachments/assets/e21d2052-8e5d-4452-ba2d-5c94c35e2b1d" />
+
+<img width="975" height="1131" alt="image" src="https://github.com/user-attachments/assets/b94bf74d-7fa8-4201-956a-2183780741f9" />
+
 
 
     curl -k -u elastic:FYQEm=bUNr-6yUeyfdiC https://192.168.6.130:9200
