@@ -1,4 +1,6 @@
-<img width="975" height="376" alt="image" src="https://github.com/user-attachments/assets/b1aa0a66-eb0b-4fa4-baef-e20b87e294fb" /># 🚀 Windows-to-ELK Full Logging Pipeline
+<img width="1017" height="296" alt="image" src="https://github.com/user-attachments/assets/2b1fa369-97d0-4434-ab43-8e88cc28e1a9" />
+
+
 **Winlogbeat → Logstash → Elasticsearch → Kibana**
 
 This repository contains a complete, fully documented, end-to-end logging pipeline that collects, processes, and visualizes Windows event logs using the ELK Stack.  
