@@ -43,7 +43,7 @@ Enable efficient log parsing, ingestion, and visualization for network and syste
    ```
 
 
-##2. ✅ Test Fluent Bit Installation
+# 2. ✅ Test Fluent Bit Installation
 
 After installing Fluent Bit, verify that it works by running a test input and output to **stdout**: 
 
@@ -53,7 +53,7 @@ After installing Fluent Bit, verify that it works by running a test input and ou
 cd "C:\Program Files\fluant-bit\bin"
 .\fluent-bit.exe -i dummy -o stdout
 ```
-3. 🛠️Configure Fluent Bit Parser
+# 3. 🛠️Configure Fluent Bit Parser
 
 Define a **custom regex parser** to extract structured fields from your log entries.  
 Add the following configuration to your Fluent Bit parser file:
