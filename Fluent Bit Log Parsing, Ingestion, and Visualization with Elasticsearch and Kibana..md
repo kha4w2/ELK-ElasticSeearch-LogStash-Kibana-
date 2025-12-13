@@ -30,7 +30,7 @@ Enable efficient log parsing, ingestion, and visualization for network and syste
 
    Extracted and moved Fluent Bit binaries to the target installation directory.
    
-   <img width="961" height="187" alt="1" src="https://github.com/user-attachments/assets/3a03eabf-b519-41e7-a534-e06c82bc7ad1" />
+<img width="961" height="187" alt="520331755-3a03eabf-b519-41e7-a534-e06c82bc7ad1" src="https://github.com/user-attachments/assets/46fa1f9e-d195-4f23-a114-375ce484a9ba" />
 
    ```powershell
    $zipPath ="C:\Users\KHALED\Downloads\fluent-bit-4.2.0-win64.zip"
@@ -39,11 +39,13 @@ Enable efficient log parsing, ingestion, and visualization for network and syste
    $targetPath = "C:\Program Files\fluant-bit"
    Move-Item -Path "$extractPath\fluent-bit-4.2.0-win64" -Destination $targetPath
 
+   ```
+
 2. ✅ Test Fluent Bit Installation
 
 After installing Fluent Bit, verify that it works by running a test input and output to **stdout**: 
 
-<img width="975" height="643" alt="image" src="https://github.com/user-attachments/assets/db837a2c-e1e8-40e8-a3c8-f68a0ec71f1a" />
+<img width="975" height="643" alt="520332513-db837a2c-e1e8-40e8-a3c8-f68a0ec71f1a" src="https://github.com/user-attachments/assets/1b4edcf8-b82b-4153-a096-b35c3e23c2f1" />
 
 ```powershell
 cd "C:\Program Files\fluant-bit\bin"
@@ -54,9 +56,9 @@ cd "C:\Program Files\fluant-bit\bin"
 Define a **custom regex parser** to extract structured fields from your log entries.  
 Add the following configuration to your Fluent Bit parser file:
 
-<img width="975" height="450" alt="image" src="https://github.com/user-attachments/assets/a2d951a9-4d3a-451d-a303-563e42ffec39" />
+<img width="975" height="450" alt="520332720-a2d951a9-4d3a-451d-a303-563e42ffec39" src="https://github.com/user-attachments/assets/12160453-da4f-4512-8be3-9d837445a591" />
 
-<img width="975" height="134" alt="image" src="https://github.com/user-attachments/assets/b15a4517-c8f9-412b-a83f-aadbea96ad3f" />
+<img width="1918" height="367" alt="image" src="https://github.com/user-attachments/assets/0b869dbb-f588-4d10-8184-1473ffff1ef8" />
 
 
 ```ini
