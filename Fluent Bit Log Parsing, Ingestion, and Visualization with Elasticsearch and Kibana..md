@@ -27,7 +27,7 @@ Enable efficient log parsing, ingestion, and visualization for network and syste
 ## 📘 **The Steps**  
 
 
-#1. 🖥️ **Install Fluent Bit on Windows**
+# 1. 🖥️ **Install Fluent Bit on Windows**
 
    Extracted and moved Fluent Bit binaries to the target installation directory.
    
