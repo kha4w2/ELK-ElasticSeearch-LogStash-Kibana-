@@ -71,7 +71,7 @@ Add the following configuration to your Fluent Bit parser file:
 
 Create a `RawLog.conf` file to **manually store log entries** that Fluent Bit will process during runtime.  
 
-<img width="975" height="258" alt="image" src="https://github.com/user-attachments/assets/951a9aa1-0258-467a-871c-e0feb17466ef" />
+<img width="975" height="258" alt="520332793-951a9aa1-0258-467a-871c-e0feb17466ef" src="https://github.com/user-attachments/assets/8a35f8a4-24b9-4da3-a1f3-74990ea8ffd8" />
 
 Example:
 
@@ -87,7 +87,7 @@ Create a `fluent-bit.conf` file to:
 - **Forward logs** to **Elasticsearch**  
 - **Output logs** to **stdout** for real-time monitoring
   
-<img width="975" height="468" alt="image" src="https://github.com/user-attachments/assets/8f3a42b9-056b-402b-b7f1-9b78dc4fdf6a" />
+<img width="975" height="468" alt="520332947-8f3a42b9-056b-402b-b7f1-9b78dc4fdf6a" src="https://github.com/user-attachments/assets/166d88d9-ac51-4adb-9cb1-c86cb3ce91d8" />
 
 configurations:
 
@@ -130,9 +130,12 @@ configurations:
 Start Fluent Bit to process logs.  
 Logs will be forwarded to **stdout** and **Elasticsearch** **only when new entries are added** to `RawLog.conf`.
 
-<img width="624" height="276" alt="image" src="https://github.com/user-attachments/assets/c1bd9399-c13c-42c8-9ff7-6e24e65f4697" />
+<img width="624" height="276" alt="520333017-c1bd9399-c13c-42c8-9ff7-6e24e65f4697" src="https://github.com/user-attachments/assets/933e3f07-45d0-4222-8ea3-a203df3b9dc3" />
 
-<img width="624" height="330" alt="image" src="https://github.com/user-attachments/assets/ea20f451-03d1-4ca9-bf71-1c3d1136b30c" />
+
+<img width="975" height="258" alt="520332793-951a9aa1-0258-467a-871c-e0feb17466ef" src="https://github.com/user-attachments/assets/e2922040-04af-4b17-b365-9195fbc502df" />
+
+<img width="624" height="330" alt="520333029-ea20f451-03d1-4ca9-bf71-1c3d1136b30c" src="https://github.com/user-attachments/assets/6ede9e6a-33d2-4e6e-ab00-5d1298f3ba92" />
 
 
 ```powershell
@@ -144,7 +147,7 @@ Logs will be forwarded to **stdout** and **Elasticsearch** **only when new entri
 Access Fluent Bit processed logs from **Elasticsearch** using `curl`.  
 Logs will appear **only after being manually added** to `RawLog.conf`.
 
-<img width="975" height="518" alt="image" src="https://github.com/user-attachments/assets/e7fdd833-2897-4e6c-a172-af3a8ebac1d1" />
+<img width="975" height="518" alt="520333126-e7fdd833-2897-4e6c-a172-af3a8ebac1d1" src="https://github.com/user-attachments/assets/a81da915-561b-47b3-a40a-0be0c29686a6" />
 
 
 ```bash
@@ -162,7 +165,7 @@ You can **filter and analyze fields** such as:
 - `MAC` 🖧  
 - `SPT` 🔢
 
-<img width="1382" height="816" alt="9" src="https://github.com/user-attachments/assets/2456c5a4-063e-42b6-a87a-3c8694ca0ad9" />
+<img width="1382" height="816" alt="520333178-2456c5a4-063e-42b6-a87a-3c8694ca0ad9" src="https://github.com/user-attachments/assets/f85f9c88-fc1f-4bd8-8f2c-8589cdb00cb5" />
 
 > Kibana provides a powerful interface to **search, filter, and visualize log data** in real-time.
 
