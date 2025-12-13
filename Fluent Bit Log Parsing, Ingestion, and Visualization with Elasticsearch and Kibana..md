@@ -24,10 +24,10 @@ Enable efficient log parsing, ingestion, and visualization for network and syste
 - Logs parsed, ingested into Elasticsearch  
 - Logs accessible on Kali Linux and visualized in Kibana Discover  
 
-📘 **The Steps**  
+## 📘 **The Steps**  
 
 
-##1. 🖥️ **Install Fluent Bit on Windows**
+#1. 🖥️ **Install Fluent Bit on Windows**
 
    Extracted and moved Fluent Bit binaries to the target installation directory.
    
