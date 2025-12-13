@@ -8,10 +8,6 @@
   - Parsing, filtering, and ingesting logs into Elasticsearch
   - Optimized for performance and scalability
 
-- 🔒 **SOAR & SOC Automation (n8n)**
-  - Alert ingestion and enrichment
-  - Threat intelligence integrations (VirusTotal, DFIR-IRIS)
-  - Automated reporting and notifications
 
 ## 🎯 Purpose
 
