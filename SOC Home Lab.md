@@ -124,29 +124,30 @@ Figure 12: Successful Download of Wazuh Agent Package
 
 Figure 13: Wazuh Agent Service Status (Already Running)
 
-<img width="1125" height="600" alt="image" src="https://github.com/user-attachments/assets/f97b8e25-76ee-42b3-8927-af67bd7e48a6" />
+<img width="1127" height="326" alt="image" src="https://github.com/user-attachments/assets/789efed8-ca6e-43df-b7d4-98899fd228bb" />
 
 
 Figure 14: Wazuh Dashboard – Active Agent Successfully Connected
 
-<img width="1093" height="215" alt="image" src="https://github.com/user-attachments/assets/630f01b7-7470-47b1-aabc-1a1a05e7771a" />
+<img width="1125" height="600" alt="image" src="https://github.com/user-attachments/assets/a3ec50c8-1e3a-4b11-853b-4ea740787acc" />
 
 
 Figure 15: Wazuh Dashboard – Event Logs from Connected Windows 11 Agent (Log Visibility in Discover View)
 
-<img width="1108" height="525" alt="image" src="https://github.com/user-attachments/assets/b557309a-546d-405f-9834-fa4a1da674ce" />
+<img width="1093" height="215" alt="image" src="https://github.com/user-attachments/assets/60ae37ff-8b92-4c72-847f-c40ad355d260" />
+
 
 Figure 16: VMware Virtual Network Editor Configuration (VMnet0, VMnet1, VMnet8)
 
-<img width="700" height="137" alt="image" src="https://github.com/user-attachments/assets/fa052604-f718-4f37-a956-7f03e57bb7d5" />
+<img width="1108" height="525" alt="image" src="https://github.com/user-attachments/assets/3b7ea7a2-decd-46ef-8d5a-becc6f72b7e9" />
 
 Figure 17: Kali Linux Virtual Machine Network Adapter Settings (Multi-NIC Configuration)
 
-<img width="1125" height="412" alt="image" src="https://github.com/user-attachments/assets/f6486b24-57dd-424d-a205-bee44c03b44b" />
+<img width="1125" height="544" alt="image" src="https://github.com/user-attachments/assets/d4fa6a73-cc11-4111-a9fd-d7dd0fdb73ff" />
 
 Figure 18: Verifying Assigned IP Addresses on Kali Linux (ip a Output)
 
-<img width="720" height="390" alt="image" src="https://github.com/user-attachments/assets/7a4f7f74-1ef8-4026-966f-9f5013fd9677" />
+<img width="1125" height="609" alt="image" src="https://github.com/user-attachments/assets/9086f1bd-d338-44c4-80e9-450229d21e70" />
 
 Figure 19: Routing Table and Interface Status Verification on Kali Linux
 
@@ -191,24 +192,24 @@ sudo ethtool eth2 | grep "Link detected"
 
 ### ➤ Step 2: Install and Validate Snort IDS on Kali Linux
 
-<img width="712" height="285" alt="image" src="https://github.com/user-attachments/assets/02d6b119-d61f-4182-8abd-ca70af37efc2" />
+<img width="1112" height="445" alt="image" src="https://github.com/user-attachments/assets/fe933456-f30d-465b-8c90-267388867254" />
 
 Figure 20: Updating Kali Linux Package Repository and Upgrading System Packages
 
-<img width="1121" height="511" alt="image" src="https://github.com/user-attachments/assets/c4406ece-95b9-4072-9bd5-748b0e5da200" />
+<img width="1121" height="511" alt="image" src="https://github.com/user-attachments/assets/ecf978b5-8c1a-4ec2-a06a-4a291db61055" />
 
 Figure 21: Installing Snort IDS and Required Dependencies
 
-<img width="715" height="244" alt="image" src="https://github.com/user-attachments/assets/50fd4d6e-d3b6-45f3-a3f9-f9643467b990" />
+<img width="1117" height="382" alt="image" src="https://github.com/user-attachments/assets/7b3d14a5-0c27-4e26-a0d4-b1252b61b47e" />
 
 Figure 22: Verifying Snort Installation Version and Configuration
 
-<img width="709" height="256" alt="image" src="https://github.com/user-attachments/assets/fe040c07-0b0f-4ddc-b053-b7a6f439ea67" />
+<img width="1107" height="400" alt="image" src="https://github.com/user-attachments/assets/166afdde-a50e-497c-b255-21687071c51c" />
 
 
 Figure 23: Inspecting Snort Configuration Directory (/etc/snort)
 
-<img width="711" height="219" alt="image" src="https://github.com/user-attachments/assets/f6c86435-dc8a-4143-bb2a-c34ac7c682ae" />
+<img width="1110" height="342" alt="image" src="https://github.com/user-attachments/assets/de552be7-2557-42f0-b3ea-f2dd185fc8aa" />
 
 ![Figure 24: Reviewing Default Snort Rule Sets](s)
 
@@ -231,16 +232,16 @@ ls -all /etc/snort/rules/
 
 ### ➤ Step 3: Configure Snort IDS (snort.lua Customization)
 
-<img width="1125" height="624" alt="image" src="https://github.com/user-attachments/assets/7e78cf2c-8486-46e8-bfdb-6432f86e8e1b" />
+<img width="1125" height="279" alt="image" src="https://github.com/user-attachments/assets/1a2b1399-e657-4d85-b19e-851b8a005345" />
 
 
 Figure 25: Editing Snort Configuration File (snort.lua – HOME_NET Definition)
 
-<img width="720" height="174" alt="image" src="https://github.com/user-attachments/assets/c05f0840-1211-4ab2-a790-f6ce0303d709" />
+<img width="1125" height="344" alt="image" src="https://github.com/user-attachments/assets/3046d2a2-5516-449f-944c-7b2b78eeb90c" />
 
 Figure 26: Adding Local Rule Path in Snort Configuration
 
-<img width="720" height="222" alt="image" src="https://github.com/user-attachments/assets/cae58b6c-1f82-4f67-968a-6ef3eea284b7" />
+<img width="1125" height="347" alt="image" src="https://github.com/user-attachments/assets/0c478eb4-9529-49b8-b458-61cfdddf2abf" />
 
 Figure 27: Configuring Snort Alert Output (alert_fast and alert_json Modes)
 
@@ -258,24 +259,24 @@ This step configures Snort alert output formats to support both real-time monito
 
 ### ➤ Step 4: Create Custom Detection Rules and Validate Snort Alerts
 
-<img width="1151" height="417" alt="image" src="https://github.com/user-attachments/assets/6244d7a9-cfd4-4ceb-bad6-25f2e91bcf5f" />
+<img width="1151" height="417" alt="image" src="https://github.com/user-attachments/assets/1898a1bf-8cfd-4f85-9481-72b8f6c070ad" />
 
 
 Figure 28: Adding Snort Local Rules File (local.rules)
 
-<img width="737" height="282" alt="image" src="https://github.com/user-attachments/assets/850efd5a-8aad-438a-a4c6-0c0650d4538e" />
+<img width="1151" height="764" alt="image" src="https://github.com/user-attachments/assets/9a1273fc-9065-4b08-b28e-d3bc6cf1dc91" />
 
 Figure 29: Validating Snort Configuration (Test Mode)
 
-<img width="720" height="96" alt="image" src="https://github.com/user-attachments/assets/f50e4df1-fcca-4692-9648-2bff890ff36e" />
+<img width="1125" height="150" alt="image" src="https://github.com/user-attachments/assets/b975f5d7-570a-48a6-88ca-05fb12002d40" />
 
 Figure 30: Running Snort in IDS Mode (alert_fast Output)
 
-<img width="720" height="310" alt="image" src="https://github.com/user-attachments/assets/d03db577-e395-4a44-a008-bb6b584d3c4d" />
+<img width="1125" height="485" alt="image" src="https://github.com/user-attachments/assets/5919a178-392d-4d11-9c34-a4693932e075" />
 
 Figure 31: Real-Time Snort Alerts During Nmap SYN Scan and ICMP Traffic Simulation
 
-<img width="720" height="602" alt="image" src="https://github.com/user-attachments/assets/eab3d764-625c-4428-8dcd-f310d406c33c" />
+<img width="1124" height="940" alt="image" src="https://github.com/user-attachments/assets/11e86429-5b78-4d43-92d8-ccc254b91ece" />
 
 Figure 32: Real-Time Snort Alerts in JSON Format (SYN Scan, ICMP Ping, and ICMP Flood Detection)
 
@@ -301,82 +302,85 @@ This step involves creating custom Snort detection rules and validating their ef
 ### ➤ Step 5: Integration of Snort IDS with Wazuh SIEM and End-to-End Alert Validation
 
 
-<img width="1135" height="453" alt="image" src="https://github.com/user-attachments/assets/645a3d82-9b1b-4040-bb43-12069b7b493f" />
+<img width="1135" height="453" alt="image" src="https://github.com/user-attachments/assets/2dbcdbc8-df22-4dd4-aa95-40ae8862836c" />
 
 
 Figure 33: Wazuh Dashboard – Linux Agent Deployment Configuration (DEB Package Selection)
 
 
-<img width="1131" height="351" alt="image" src="https://github.com/user-attachments/assets/74af8369-7b29-43a3-b924-c09266705837" />
+<img width="1131" height="351" alt="image" src="https://github.com/user-attachments/assets/3ddecfa8-1649-472c-a7e1-3295276b3613" />
 
 
 Figure 34: Generated Wazuh Agent Installation Command for Kali Linux
 
-<img width="1133" height="459" alt="image" src="https://github.com/user-attachments/assets/23eef3a7-309f-4de6-83d6-d9a273f2a3d0" />
+<img width="1133" height="459" alt="image" src="https://github.com/user-attachments/assets/69691698-635e-4ad4-adee-0d2ece4aa64c" />
 
 Figure 35: Installing and Starting Wazuh Agent on Kali Linux (Snort Node)
 
-<img width="1133" height="345" alt="image" src="https://github.com/user-attachments/assets/9369fbee-6131-4ef1-868a-aa361745ec33" />
+<img width="1133" height="345" alt="image" src="https://github.com/user-attachments/assets/d7d58676-4041-4151-b263-252564d39fd8" />
 
 Figure 36: Wazuh Dashboard – Kali Agent Successfully Connected (Snort_IDS_IPS Active)
 
-<img width="1133" height="522" alt="image" src="https://github.com/user-attachments/assets/ec453059-0142-4c8e-8b1e-c2858eaad4bd" />
+
+<img width="1133" height="522" alt="image" src="https://github.com/user-attachments/assets/3f2c6176-06f8-4c0e-a3a7-06eb8ea8c897" />
+
 
 Figure 37: Wazuh Discover View – Incoming Logs from Snort Agent (Pre-Parsing Stage)
 
-<img width="1136" height="129" alt="image" src="https://github.com/user-attachments/assets/5abbeade-822f-4d3e-bbcc-964421cc90b6" />
+<img width="1136" height="129" alt="image" src="https://github.com/user-attachments/assets/5a6122ad-9429-416a-ab50-79d27aa75ca3" />
 
 Figure 38: Editing Wazuh Agent Configuration File (ossec.conf) on Kali Linux
 
-<img width="1138" height="417" alt="image" src="https://github.com/user-attachments/assets/ffb5c9ce-0569-4fa7-a2bf-747687c41d05" />
+<img width="1138" height="417" alt="image" src="https://github.com/user-attachments/assets/9cbf1414-945e-4d7c-baf4-ab5f61b4ef52" />
 
 Figure 39: Configuring Client Buffer and Agent Enrollment Settings
 
-<img width="1125" height="397" alt="image" src="https://github.com/user-attachments/assets/6aef57fd-a494-4c4a-a79e-0b16e0ca0794" />
+<img width="1125" height="397" alt="image" src="https://github.com/user-attachments/assets/1e9ec1f9-f99a-48fb-acfa-d5f8551d4138" />
 
 Figure 40: Adding Snort JSON Log Source to Wazuh Agent Configuration
 
-<img width="1125" height="406" alt="image" src="https://github.com/user-attachments/assets/ad009345-a323-4189-9812-10de750000cb" />
+<img width="1125" height="406" alt="image" src="https://github.com/user-attachments/assets/887ea821-3637-4bf3-acb6-6fb48217481f" />
 
 Figure 41: Adjusting Log File Permissions and Restarting Wazuh Agent Service
 
-<img width="1133" height="70" alt="image" src="https://github.com/user-attachments/assets/4d083783-c519-4cab-ae79-c6a19a9a8548" />
+<img width="1133" height="70" alt="image" src="https://github.com/user-attachments/assets/64d7355e-ff76-4970-b1b1-4809670f4222" />
 
 Figure 42: Editing Wazuh Manager Configuration File (ossec.conf) on Ubuntu Server
 
-<img width="1125" height="332" alt="image" src="https://github.com/user-attachments/assets/a9519e00-823c-4f79-9473-8e8ab3c267bb" />
+<img width="1125" height="332" alt="image" src="https://github.com/user-attachments/assets/946e9535-fdcf-45b7-9459-1994821ba6ef" />
 
 Figure 43: Enabling JSON Output Logging on Wazuh Manager
 
-<img width="1125" height="369" alt="image" src="https://github.com/user-attachments/assets/fc78e4e9-eb7d-47ae-8a63-27c673ec2650" />
+<img width="1125" height="369" alt="image" src="https://github.com/user-attachments/assets/17134668-2297-4ead-810b-5d6af72db558" />
 
 Figure 44: Adding Additional Log Sources on Wazuh Manager
 
-<img width="1125" height="52" alt="image" src="https://github.com/user-attachments/assets/1f8eab78-9f34-4948-af7c-ee8852b2733b" />
+<img width="1125" height="52" alt="image" src="https://github.com/user-attachments/assets/732f3f53-b0a2-4b8c-bca1-8a423cc71031" />
 
 Figure 45: Editing Local Rules File on Wazuh Manager (local_rules.xml)
 
-<img width="1125" height="426" alt="image" src="https://github.com/user-attachments/assets/b4038b2a-9378-424a-b825-78fab03be66f" />
+<img width="1125" height="426" alt="image" src="https://github.com/user-attachments/assets/e52f7668-2a77-40fe-9b4c-a325677e4078" />
+
 
 Figure 46: Creating Custom Wazuh Rules for Snort Alert Correlation (SYN Scan Detection)
 
-<img width="1124" height="514" alt="image" src="https://github.com/user-attachments/assets/d33f5d67-0c66-424b-80a0-c58a9d5dad76" />
+<img width="1124" height="514" alt="image" src="https://github.com/user-attachments/assets/85407a9f-4053-4cb5-b3d8-16a412ba62a1" />
 
 Figure 47: Validating Wazuh Rules Using wazuh-logtest Tool
 
-<img width="1124" height="579" alt="image" src="https://github.com/user-attachments/assets/218fb2cd-a8ab-4995-82c7-49a39ec8f8aa" />
+<img width="1124" height="579" alt="image" src="https://github.com/user-attachments/assets/f447e097-c5f9-4108-98b9-9850b7a0faf6" />
 
 Figure 48: Modifying Filebeat Ingest Pipeline to Handle Timestamp Parsing Issue
 
-<img width="1125" height="219" alt="image" src="https://github.com/user-attachments/assets/34744c37-99bb-4148-bb98-2b6eb7cca0a3" />
+<img width="1125" height="219" alt="image" src="https://github.com/user-attachments/assets/d049f380-c8d4-4aa0-8cee-cdfb8019f300" />
 
 Figure 49: Reloading Filebeat Pipelines and Restarting Wazuh Stack Services
 
-<img width="1125" height="553" alt="image" src="https://github.com/user-attachments/assets/6cc4948b-3c4a-4d1e-a4e7-480b1168d290" />
+<img width="1125" height="553" alt="image" src="https://github.com/user-attachments/assets/c1a8e251-3886-4b58-98eb-4133558805f7" />
 
 Figure 50: Real-Time Attack Simulation (Nmap SYN Scan) and Snort Alert Generation
 
-<img width="1125" height="547" alt="image" src="https://github.com/user-attachments/assets/c27bcb83-da04-4b8b-9f99-36a070a43c7e" />
+<img width="1125" height="547" alt="image" src="https://github.com/user-attachments/assets/631527e2-43da-4256-b409-379952b04d4d" />
 
 Figure 51: Wazuh Discover View – Confirmed Detection of SYN Scan Alerts (Rule ID: 100201)
 
@@ -441,88 +445,90 @@ curl -k -u admin:PASSWORD "https://localhost:9200/wazuh-alerts-4.x-*/_search?q=r
 
 ### ➤ Step 6: Deploying Snort as an Inline IPS Using NFQUEUE for Active Traffic Prevention
 
-<img width="1130" height="1344" alt="image" src="https://github.com/user-attachments/assets/0ba9ecca-7dff-47a2-b538-af3395da88ba" />
+<img width="1130" height="1344" alt="image" src="https://github.com/user-attachments/assets/a0a8ff93-5304-4575-8f47-579a0c458a85" />
 
 
 Figure 52: Virtual Machine Network Adapter Configuration for Inline IPS Deployment
 
 
-<img width="1125" height="549" alt="image" src="https://github.com/user-attachments/assets/5dee015e-f94c-4d69-a454-0844bc697fb8" />
+<img width="1125" height="549" alt="image" src="https://github.com/user-attachments/assets/b95c59f0-bfcf-4467-822d-660aa79c07bb" />
 
 
 Figure 53: System Preparation and Enabling IP Forwarding for Packet Routing
 
-<img width="1125" height="839" alt="image" src="https://github.com/user-attachments/assets/9c824c23-613f-456d-9a43-01fe2572c85c" />
+<img width="1125" height="839" alt="image" src="https://github.com/user-attachments/assets/f1f4b351-ee33-4740-a4e5-d4668623e23d" />
 
 
 Figure 54: Identifying Victim Network Interface and Interface Index on Windows
 
-<img width="1125" height="317" alt="image" src="https://github.com/user-attachments/assets/b27931d1-f845-49e0-a064-6d2a731f7f0a" />
+<img width="1125" height="317" alt="image" src="https://github.com/user-attachments/assets/90ba301d-ff16-41e1-a782-299d89a12dab" />
 
 Figure 55: Configuring Default Gateway on Victim to Route Traffic via IPS
 
-<img width="1125" height="515" alt="image" src="https://github.com/user-attachments/assets/dfb71a9d-8919-4649-a0a5-ce014d32ea1a" />
+<img width="1125" height="515" alt="image" src="https://github.com/user-attachments/assets/8e26362d-c3d8-41a4-b6c3-914ef3a1353e" />
+
 
 Figure 56: Configuring iptables to Redirect Traffic into NFQUEUE for Inline Inspection
 
-<img width="1125" height="397" alt="image" src="https://github.com/user-attachments/assets/ade4ad4d-b3eb-4b8d-9091-0fd18c42f857" />
+<img width="1125" height="397" alt="image" src="https://github.com/user-attachments/assets/2aeb30c1-2d8b-4686-93b2-cb01a3908ef9" />
 
 
 Figure 57: Assigning Static IP Addresses and Disabling DHCP on IPS Interfaces
 
-<img width="1125" height="514" alt="image" src="https://github.com/user-attachments/assets/8ab110a8-de91-49c4-ac21-ecef62f4cc4c" />
+<img width="1125" height="514" alt="image" src="https://github.com/user-attachments/assets/fbe9349f-da35-43e8-b52f-762a4d5167fb" />
 
 
 Figure 58: Verifying Network Interfaces and Routing Table on IPS Machine
 
-<img width="1125" height="524" alt="image" src="https://github.com/user-attachments/assets/cf0df6a8-84ff-49f6-81aa-a65cdbe3a9bd" />
+<img width="1125" height="524" alt="image" src="https://github.com/user-attachments/assets/f69de4c0-d95d-456b-8205-04037153ced5" />
 
 
 ![Figure 59: Configuring Attacker Routing to Forward Traffic via IPS
 
-<img width="1124" height="333" alt="image" src="https://github.com/user-attachments/assets/3a3c4eb8-e60d-47ef-85af-440274b0959a" />
+<img width="1124" height="333" alt="image" src="https://github.com/user-attachments/assets/0fc7788c-b990-49b5-9db8-73875565a146" />
 
 
 ![Figure 60: Verifying Snort Installation and Version
 
-<img width="1125" height="347" alt="image" src="https://github.com/user-attachments/assets/356f2ec5-62ab-4e3c-b318-bba025f25a10" />
+<img width="1125" height="347" alt="image" src="https://github.com/user-attachments/assets/f8518d2b-dbe3-4145-9e1a-be67d1cbd6d7" />
 
 
 ![Figure 61: Configuring HOME_NET and EXTERNAL_NET in Snort
 
-<img width="1125" height="468" alt="image" src="https://github.com/user-attachments/assets/35d6b3e0-fe72-4374-bacb-7ae88dd88b05" />
+<img width="1125" height="468" alt="image" src="https://github.com/user-attachments/assets/f3e12f54-fe28-4b7a-bb70-c8a823e8a160" />
 
 
 ![Figure 62: Configuring DAQ Module for NFQUEUE Inline Mode
 
-<img width="1125" height="460" alt="image" src="https://github.com/user-attachments/assets/9f13e96e-fa1c-4643-9592-de5c7ec7c481" />
+<img width="1125" height="460" alt="image" src="https://github.com/user-attachments/assets/b5729f9f-4790-4a11-81b3-fb8639746c1b" />
 
 
 ![Figure 63: Enabling IPS Mode and Loading Custom Detection Rules
 
-<img width="1125" height="455" alt="image" src="https://github.com/user-attachments/assets/8b682410-a3bf-4d92-9962-9af0e90d7f83" />
 
+<img width="1125" height="455" alt="image" src="https://github.com/user-attachments/assets/88c33dec-c2d1-4f67-a6df-7cfe41857c52" />
 
 Figure 64: Configuring Snort Output Modules (alert_fast and alert_json)
 
-<img width="1125" height="185" alt="image" src="https://github.com/user-attachments/assets/e222f11e-567c-4237-8e14-72104bb5277b" />
+<img width="1125" height="185" alt="image" src="https://github.com/user-attachments/assets/c5e456bb-1e13-4397-9b78-1839ad2bf1a8" />
 
 Figure 65: Creating Log Directory and Setting Proper Permissions
 
 <img width="1124" height="333" alt="image" src="https://github.com/user-attachments/assets/c8a81ce1-a7a7-43c0-a86a-f6b52b4cc02b" />
 
+<img width="1124" height="333" alt="image" src="https://github.com/user-attachments/assets/36c4bd65-7a95-42ef-8194-58dabd9091fe" />
 
 Figure 66: Creating Custom Snort Rules for Attack Detection and Prevention
 
-<img width="1125" height="336" alt="image" src="https://github.com/user-attachments/assets/912c35ed-4ab7-42bf-b9ac-224a14824140" />
+<img width="1125" height="336" alt="image" src="https://github.com/user-attachments/assets/3cba2e62-3475-4c6e-9f07-b1221bb9c9cb" />
 
 Figure 67: Running Snort in Inline IPS Mode with NFQUEUE
 
-<img width="1125" height="432" alt="image" src="https://github.com/user-attachments/assets/27b3f40f-a162-4510-8b3c-84179f54d49c" />
+<img width="1125" height="432" alt="image" src="https://github.com/user-attachments/assets/ac223082-09f0-4c8d-852e-f3d51e55d72d" />
 
 Figure 68: Validating Traffic Blocking from Attacker (ICMP Failure)
 
-<img width="1125" height="454" alt="image" src="https://github.com/user-attachments/assets/ef077f7b-0e98-4b6d-9400-11e5e866eb55" />
+<img width="1125" height="454" alt="image" src="https://github.com/user-attachments/assets/1332e8cb-6c0e-43b2-aa74-790475df1e52" />
 
 Figure 69: Verifying Snort Alerts Generated from Blocked Traffic
 
@@ -597,37 +603,37 @@ sudo cat /var/log/snort/alert_fast.txt
 
 ### ➤ Step 7: Attack Simulation and IPS Effectiveness Validation
 
-<img width="1125" height="498" alt="image" src="https://github.com/user-attachments/assets/a8d28bd4-d3b4-4611-86df-71078a0b094f" />
+<img width="1125" height="498" alt="image" src="https://github.com/user-attachments/assets/36f1ff70-0e0b-405c-8f94-ec4a877a2320" />
 
 
 Figure 70: Nmap SYN Scan Behavior Before and After Enabling Snort IPS
 
-<img width="720" height="433" alt="image" src="https://github.com/user-attachments/assets/5831387e-5e4b-4b0d-ad30-d7a7d4fee47c" />
+<img width="1125" height="677" alt="image" src="https://github.com/user-attachments/assets/059b270e-bb99-4685-ae82-820bdd2734dc" />
 
 Figure 71: ICMP Flood (DoS Attack) Before and After IPS Enforcement
 
-<img width="720" height="185" alt="image" src="https://github.com/user-attachments/assets/f3006408-cf30-4917-84c8-21aab4e02b94" />
+<img width="1125" height="289" alt="image" src="https://github.com/user-attachments/assets/6c43c26b-fd2e-4822-8cab-69d90cf71a4e" />
 
 Figure 72: SSH Brute Force Attack Execution Using Hydra
+<img width="1125" height="547" alt="image" src="https://github.com/user-attachments/assets/32d1a08d-0e55-41dd-8e8f-2acdd377f72b" />
 
-<img width="720" height="350" alt="image" src="https://github.com/user-attachments/assets/17dde4f8-70ee-476f-9c47-e182fb5bc770" />
 
 Figure 73: SSH Brute Force Attack Results (Before vs After IPS)
 
-<img width="720" height="345" alt="image" src="https://github.com/user-attachments/assets/2b2133b3-c415-4292-a50a-807e8e9c6705" />
+<img width="1125" height="539" alt="image" src="https://github.com/user-attachments/assets/d2915863-71a7-4a41-aaed-262ae1cb2782" />
 
 Figure 74: Web Vulnerability Scanning Using Nikto (Before vs After IPS)
 
-<img width="720" height="333" alt="image" src="https://github.com/user-attachments/assets/bc553650-74e6-4f49-9368-b9668b83949d" />
+<img width="1125" height="521" alt="image" src="https://github.com/user-attachments/assets/f71a5557-fd48-4d81-af0c-4eface18e0b3" />
 
 Figure 75: Nessus Scan Results Before Enabling Snort IPS
 
-<img width="1124" height="289" alt="image" src="https://github.com/user-attachments/assets/4e916ea7-1252-4077-bcdb-c0c639120edd" />
+<img width="1124" height="289" alt="image" src="https://github.com/user-attachments/assets/2f4e8159-a494-4c7e-a024-2028de83095b" />
 
 
 Figure 76: Nessus Scan Results After Enabling Snort IPS
 
-<img width="1125" height="568" alt="image" src="https://github.com/user-attachments/assets/60f52d98-8232-430d-8606-63ccd81717ac" />
+<img width="1125" height="568" alt="image" src="https://github.com/user-attachments/assets/ce4145c7-0643-4877-a8e5-a15b213b593e" />
 
 Figure 77: Snort IPS Alerts During Attack Simulation
 
